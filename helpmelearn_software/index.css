@@ -1,0 +1,445 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.jumbotron{
+	background-color:#2574a9;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	background-attachment: fixed;
+	min-height: 625px;
+	margin-bottom: 0px;
+	font-family: 'Bree Serif', serif;
+}
+
+.navbar-inner{
+	background: #fafafa;
+	filter: none;
+	border: none;
+	box-shadow: none;
+	margin: 0px;
+	background-color: #fff;
+	margin-top: -30px;
+	border-radius: 0px;
+	min-height: 80px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 120%;
+}
+
+.navbar .nav > li > a{
+	color: #667;
+	text-shadow: none;
+}
+
+.navbar .nav > li >a:hover{
+	color: #000;
+};
+
+.navbar .nav .active > a{
+	color: #667;
+	background: none;
+}
+
+.aboutus{
+	background-color: #E0D8E0;
+	padding-top: 45px;
+	font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.about{
+	font-size: 120%;
+	padding-top: 40px;
+	background-color: #E0D8E0;
+}
+/*.h2_font{
+	font-size: 350%;
+	font-family: 'Open Sans', sans-serif;
+}*/
+.ourname{
+	margin-top: 70px;
+	font-size: 120%;
+}
+
+.myfooter{
+	margin-top: 30px;
+	background-color: none;
+	color: #000;
+	min-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.more_info{
+	margin: 200px;
+}
+
+.survey{
+	padding-top: 45px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#button_survey{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contactus{
+	padding-top: 45px;
+	font-family: 'Open Sans', sans-serif;
+	/*background: -webkit-linear-gradient(#fff, #f6f6f6);  For Safari 5.1 to 6.0
+    background: -o-linear-gradient(#fff, #f6f6f6); /* For Opera 11.1 to 12.0 
+    background: -moz-linear-gradient(#fff, #f6f6f6); /* For Firefox 3.6 to 15 
+    background: linear-gradient(#fff, #f6f6f6); /* Standard syntax (must be last) */
+    background-color: #f6f6f6;
+}
+
+/*Stylesheet for the form*/
+input,textarea{
+	font: 1.5rem Lato, sans-serif;
+}
+
+label, input, textarea{
+	display: block;
+}
+
+input, textarea{
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+label input, label textarea {
+	margin-top: 15px;
+}
+
+label{
+	margin-bottom: 20px;
+}
+
+input[type="submit"], button{
+	width: auto;
+}
+.labelname{
+	margin-top: 20px;
+}
+.labelemail{
+	margin-top: 20px;
+}
+.labelmessage{
+	margin-top: 20px;
+}
+.thisarea{
+	min-height: 100px;
+}
+.btn{
+	width: 150px;
+	margin: 20px;
+}
+fieldset{
+	border: none;
+	max-width: 500px;
+	/*background-color: #f6f6f6;*/
+	padding: 0 0 20px 0;
+}
+
+.muted{
+	color: #aaa;
+}
+/*Components Area of Form*/
+.contact{
+	width:100%;
+	max-width: 500px;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 30px 20px;
+	box-sizing: border-box;
+}
+
+.panel{
+	border: 1px solid #ddd;
+	background: #f0f0f0;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.titleTag{
+	margin-top: -50px;
+	margin-bottom: 70px;
+}
+
+/*Different School Sections*/
+#codeacademy{
+	background-color: #446cb3;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+#khanacademy{
+	background-color: #4183d7;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+#coursera{
+	background-color: #59abe3;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+h3{
+	color: #fff;
+}
+h1{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+h4{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+#googledevelopers{
+	background-color: #81cfe0;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+#learncodethehardway{
+	background-color: #52b3d9;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+#codeschool{
+	background-color: #22a7f0;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+#code{
+	background-color: #3498db;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+#codeavengers{
+	background-color: #2c3e50;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+#edx{
+	background-color: #19b5fe;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+/*paid section tags*/
+#lynda{
+	background-color: #2ecc71;
+	color:#22a7f0;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 350px;
+	margin-bottom: 40px;
+	border-style: bold;
+	/*border-color: #22a7f0;*/
+}
+#udacity{
+	background-color: #3fc380;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 350px;
+	margin-bottom: 40px;
+}
+#udemy{
+	background-color: #03a678;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 350px;
+	margin-bottom: 40px;
+}
+
+#treehouse{
+	background-color: #2abb9b;
+	color:#22a7f0;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 350px;
+	margin-bottom: 40px;
+	border-style: bold;
+}
+/*fix this*/
+#html5rocks{
+	background-color: #2abb9b;
+	color:#22a7f0;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+	border-style: bold;
+}
+#programmers{
+	background-color: #E0D8E0;
+	font-size: 120%;
+}
+.whattocode{
+	background-color: #E0D8E0;
+	padding: 40px;
+	min-height: 450px;
+}
+.objectives{
+	width: 500px;
+	height: 100px;
+	border-radius: 10px;
+	font-size: 220%;
+}
+#objectives{
+	width: 500px;
+	height: 100px;
+	border-radius: 10px;
+	font-size: 220%;
+}
+/*Modal window
+.modalWindow {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.2);
+    z-index: 99999;
+    opacity:0;
+    pointer-events: none;
+    text-align:center;
+}
+.modalWindow:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalWindow > div {
+    width: 500px;
+    position: relative;
+    margin: 10% auto;
+    background: #fff;
+}*/
+
+#facetoface{
+	content: center;
+	background-color: #2574a9;
+	color: #fff;
+	padding: 40px;
+}
+
+/*face to face*/
+#generalassembly{
+	background-color: #f5ab35;
+	color:#22a7f0;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 350px;
+	margin-bottom: 40px;
+	border-style: bold;
+	/*border-color: #22a7f0;*/
+}
+#girlcodeit{
+	background-color: #f39c12;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 350px;
+	margin-bottom: 40px;
+}
+#theironyard{
+	background-color: #f9bf3b;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 350px;
+	margin-bottom: 40px;
+}
+
+#blackgirlscode{
+	background-color: #e67e22;
+	color:#22a7f0;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 350px;
+	margin-bottom: 40px;
+	border-style: bold;
+}
+
+#practice{
+	padding: 40px;
+	color: #000;
+}
+
+#projecteuler{
+	border-width: medium;
+	color: #000;
+	border-color: red;
+	margin-top: 40px;
+}
+
+#topcoder{
+	border-width: medium;
+	color: #000;
+	border-color: blue;
+	margin-top: 40px;
+}
+
+#kaggle{
+	border-width: medium;
+	color: #000;
+	border-color: green;
+	margin-top: 40px;
+}
+
+#codeforces{
+	border-width: medium;
+	color: #000;
+	border-color: orange;
+	margin-top: 40px;
+}
+
+#innocentive{
+	border-width: medium;
+	color: #000;
+	border-color: purple;
+	margin-top: 40px;
+}
+#learner{
+	background-color: #3498db;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
+#thinkful{
+	background-color: #65c6bb;
+	color:#fff;
+	margin: 2px;
+	border-radius: 4px;
+	min-height: 400px;
+	margin-bottom: 40px;
+}
